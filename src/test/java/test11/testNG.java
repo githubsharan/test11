@@ -14,6 +14,7 @@ public class testNG {
 	@Test
 	public void createPatient() throws InterruptedException
 	{
+		//testing commit
 		WebDriver driver=new ChromeDriver();
 		driver.manage().window().maximize();
 		driver.manage().timeouts().implicitlyWait(30,TimeUnit.SECONDS);
